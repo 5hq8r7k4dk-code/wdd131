@@ -1,10 +1,14 @@
 
 body {
-    background-size: 100vw 100vh;
     margin: 0;
     padding: 20px;
     transition: background-image 1s ease;
+    background: url(images/circleintime.jpg);
+    background-size: cover;
+    background-position: center;
+    color: gold;
 }
+
 
 .container {
     text-align: center;
@@ -19,11 +23,14 @@ select {
 }
 
 #logo {
+    opacity: 0%;
     margin-top: 1rem;
     width: 300px;
+    transition: opacity 1s ease;
 }
 
 .content {
+
     margin-top: 3rem;
     font-size: 1.5rem;
 }
