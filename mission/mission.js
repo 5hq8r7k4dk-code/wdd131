@@ -4,6 +4,7 @@ let logo = document.querySelector('img');
 let content = document.querySelector('#content')
 let h1 = document.querySelector('h1');
 let h2 = document.querySelector('h2');
+let hr = document.querySelector('hr');
 
 selectElem.addEventListener('change', changeTheme);
 
@@ -22,5 +23,6 @@ function changeTheme() {
         h1.style.color = "#222222";
         h2.style.color = "#4a7fa5";
         content.style.color = "black";
+        hr.style.backgroundColor = "#cccccc";
     }
 }     
