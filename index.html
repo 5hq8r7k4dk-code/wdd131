@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jackson's WDD131 Portal Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="#">
+      <!-- inline SVG play-button logo in brand colors -->
+      <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="lg1" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#1F30C9"/>
+            <stop offset="50%" stop-color="#D423CC"/>
+            <stop offset="100%" stop-color="#FE934D"/>
+          </linearGradient>
+        </defs>
+        <circle cx="21" cy="21" r="20" fill="url(#lg1)" opacity="0.18"/>
+        <circle cx="21" cy="21" r="20" stroke="url(#lg1)" stroke-width="1.5" fill="none"/>
+        <polygon points="16,13 32,21 16,29" fill="url(#lg1)"/>
+      </svg>
+      <span>WDD131 Portal Page</span>
+    </a>
+
+    <!-- <ul class="nav-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="albums.html">Albums</a></li>
+      <li><a href="artists.html">Artists</a></li>
+    </ul> -->
+
+    <!-- <a class="nav-contact" href="contact.html">Contact Me</a> -->
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1 class="hero-title">Jackson's WDD131<br/><span>Portal Page</span></h1>
+    </div>
+
+  </section>
+
+  <!-- PORTAL CARDS -->
+  <section class="portal-section">
+    <p class="section-label">Explore</p>
+    <h2 class="section-title">Where do you want to go?</h2>
+
+    <div class="portal-grid">
+
+      <!-- Albums card -->
+      <a href="ponder/meta-css.html" class="portal-card card-albums">
+        <div class="card-bg"></div>
+        <span class="card-count">Week 1</span>
+        <div class="card-content">
+            <p class="card-tag">Page 1</p>
+          <h3 class="card-title">Ponder Meta Tags</h3>
+          <span class="card-cta">See Website →</span>
+        </div>
+      </a>
+
+      <!-- Artists card -->
+      <a href="artists.html" class="portal-card card-artists">
+        <div class="card-bg"></div>
+        <div class="card-img-placeholder">
+        </div>
+        <span class="card-count">Week 2</span>
+        <div class="card-content">
+          <p class="card-tag">Page 2</p>
+          <h3 class="card-title">Ponder </h3>
+          <span class="card-cta">See Website →</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ABOUT STRIP -->
+  <section class="about-strip">
+    <div class="about-icon">🎧</div>
+    <div class="about-content">
+      <h2>About This Site</h2>
+      <p>
+        Hi, I'm <strong>Jackson Snyder</strong> — this is my personal portal page, built to house all of my assignments for my WDD 131 class. 
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Sparky · WDD 101</p>
+  </footer>
+
+</body>
+</html>
