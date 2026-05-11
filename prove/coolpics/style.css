@@ -61,7 +61,7 @@ footer p {
   padding: 15px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 650px) {
     #images {
       grid-template-columns: 1fr 1fr;
       row-gap: 40px;
@@ -99,7 +99,7 @@ footer p {
         grid-template-columns: 1fr 1fr 1fr;
         row-gap: 40px;
         column-gap: 40px;
-        width: 60%;
+        width: 70%;
         align-self: center;
     }
     
