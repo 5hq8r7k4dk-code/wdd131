@@ -16,8 +16,30 @@ h1 {
   font-weight: 100;
 }
 
-#menu {
-  padding-bottom: 10px;
+.menu-btn {
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+nav a {
+    padding: 10px;
+    color: white;
+    display: block;
+    font-size: 1em;
+    text-align: center;
+  }
+
+.hide {
+    display: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #616061;
 }
 
 ul {
@@ -92,13 +114,14 @@ dialog {
     h2 {
       padding: 20px;
     }
-}
 
-@media screen and (min-width: 1500px) {
+  }
+  
+  @media screen and (min-width: 1500px) {
     #menu {
       display: none;
     }
-
+    
     ul {
       margin: 0 auto;
       display: grid;
@@ -107,39 +130,57 @@ dialog {
       place-items: center;
       padding-bottom: 10px;
     }
-
+    
     li {
       list-style: none;
     }
-
+    
     h2 {
       padding: 30px;
     }
-  
+    
     #images {
-        margin: 0 auto;
-        grid-template-columns: 1fr 1fr 1fr;
-        row-gap: 40px;
-        column-gap: 40px;
-        width: 70%;
-        align-self: center;
-    }
-
-    dialog img {
-        width: 60%;
-        margin: 15vh auto;
-    }
-    .close-viewer {
-        position: absolute;
-        right: 15vh;
-    }
-    .viewer {
-        margin: 50px;
-        padding: 50px;
-    }
-    .viewer img {
-        max-width: 800px;
+      margin: 0 auto;
+      grid-template-columns: 1fr 1fr 1fr;
+      row-gap: 40px;
+      column-gap: 40px;
+      width: 70%;
+      align-self: center;
     }
     
-}
-
+    dialog img {
+      width: 60%;
+      margin: 15vh auto;
+    }
+    .close-viewer {
+      position: absolute;
+      right: 15vh;
+    }
+    .viewer {
+      margin: 50px;
+      padding: 50px;
+    }
+    .viewer img {
+      max-width: 800px;
+    }
+    
+    .menu-btn {
+        display: none;
+    }
+  
+    nav a {
+        display: inline;
+        border: none;
+    }
+  
+    nav {
+        text-align: center;
+      padding-bottom: 10px;
+    }
+  
+    .hide {
+        display: block;
+    }
+  }
+  
+  

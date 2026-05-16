@@ -2,6 +2,15 @@ const images = document.querySelector('#images');
 const modal = document.querySelector('dialog');
 const modalImage = modal.querySelector('img');
 const closeButton = modal.querySelector('.close-viewer');
+const menu = document.querySelector("nav");
+const btn = document.querySelector(".menu-btn");
+
+btn.addEventListener("click", toggleMenu);
+
+function toggleMenu() {
+    menu.classList.toggle("hide");
+    btn.classList.toggle("change");
+}
 
 // Event listener for opening the modal
 images.addEventListener('click', openModal);
