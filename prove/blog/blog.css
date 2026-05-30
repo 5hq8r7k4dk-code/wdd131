@@ -72,6 +72,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr 30px 1fr 1fr;
         border: none; 
+        padding-bottom: 50px;
     }
 
     .book h2 {
