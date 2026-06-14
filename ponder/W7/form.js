@@ -14,7 +14,7 @@ function updateNotesField() {
         notesContainer.hidden = false;
         notes.required = true;
     }
-    else {
+    else {  
         notesContainer.hidden = true;
         notes.required = false;
     }
